@@ -14,6 +14,7 @@ namespace BillingComponents
             bool res = false;
             int i = 0;
 
+            //test comment for github push
             foreach (var payer in PayerList)
             {
                 res = ProcessPayerBatch(payer);
